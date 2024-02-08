@@ -1,5 +1,5 @@
 Hello,
-This project is concentrated around an AutoEncoder net used for ECG time series data analysis.
+This project is concentrated around an AutoEncoder net used for ECG5000 data analysis.
 AutoEncoder encodes the data (compresses it) using encoder, and then decodes (decompreses) it using decoder.
 The main goal is to separate anomalous examples from normal ones.
 To do so the net is initialy trained only on normal examples, which it learns to reconstruct (decompres).
